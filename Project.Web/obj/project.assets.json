@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.11": {
         "type": "package",
         "dependencies": {
@@ -270,14 +270,14 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "Resources/1.0.0": {
+      "Project.Resources/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Resources.dll": {}
+          "bin/placeholder/Project.Resources.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Resources.dll": {}
+          "bin/placeholder/Project.Resources.dll": {}
         }
       }
     }
@@ -659,16 +659,16 @@
         "version.txt"
       ]
     },
-    "Resources/1.0.0": {
+    "Project.Resources/1.0.0": {
       "type": "project",
-      "path": "../Resources/Resources.csproj",
-      "msbuildProject": "../Resources/Resources.csproj"
+      "path": "../Resources/Project.Resources.csproj",
+      "msbuildProject": "../Resources/Project.Resources.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.11",
-      "Resources >= 1.0.0"
+      "Project.Resources >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -688,18 +688,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Garren\\GitHb_Projects\\TimCadieux\\MultiLanguageRouting\\Resources\\Resources.csproj": {
-              "projectPath": "D:\\Garren\\GitHb_Projects\\TimCadieux\\MultiLanguageRouting\\Resources\\Resources.csproj"
+            "D:\\Garren\\GitHb_Projects\\TimCadieux\\MultiLanguageRouting\\Resources\\Project.Resources.csproj": {
+              "projectPath": "D:\\Garren\\GitHb_Projects\\TimCadieux\\MultiLanguageRouting\\Resources\\Project.Resources.csproj"
             }
           }
         }
@@ -711,8 +711,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",

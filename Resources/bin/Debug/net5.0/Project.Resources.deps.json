@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Project.Resources/1.0.0": {
+        "runtime": {
+          "Project.Resources.dll": {}
+        },
+        "resources": {
+          "es/Project.Resources.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Project.Resources.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

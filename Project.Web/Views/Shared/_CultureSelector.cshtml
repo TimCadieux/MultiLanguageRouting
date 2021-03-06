@@ -1,4 +1,6 @@
-﻿
+﻿@using System.Globalization;
+@using Project.Resources;
+
 @{
     if (!ViewContext.RouteData.Values.ContainsKey("culture") || (string)ViewContext.RouteData.Values["culture"] == "en")
     {
@@ -6,14 +8,14 @@
             ViewContext.RouteData.Values["culture"] = "fr";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="fr" class="nav-link p-0">@Resources.Resource.SwitchToFrench</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="fr" class="nav-link p-0">@Resource.SwitchToFrench</a>
         </li>
 
         {
             ViewContext.RouteData.Values["culture"] = "es";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="es" class="nav-link p-0">@Resources.Resource.SwitchToSpanish</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="es" class="nav-link p-0">@Resource.SwitchToSpanish</a>
         </li>
         {
             ViewContext.RouteData.Values["culture"] = "en";
@@ -25,14 +27,14 @@
             ViewContext.RouteData.Values["culture"] = "en";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="en" class="nav-link p-0">@Resources.Resource.SwitchToEnglish</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="en" class="nav-link p-0">@Resource.SwitchToEnglish</a>
         </li>
 
         {
             ViewContext.RouteData.Values["culture"] = "es";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="es" class="nav-link p-0">@Resources.Resource.SwitchToSpanish</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="es" class="nav-link p-0">@Resource.SwitchToSpanish</a>
         </li>
         {
             ViewContext.RouteData.Values["culture"] = "fr";
@@ -44,17 +46,37 @@
             ViewContext.RouteData.Values["culture"] = "en";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="en" class="nav-link p-0">@Resources.Resource.SwitchToEnglish</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="en" class="nav-link p-0">@Resource.SwitchToEnglish</a>
         </li>
 
         {
             ViewContext.RouteData.Values["culture"] = "fr";
         }
         <li class="nav-link text-dark">
-            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="fr" class="nav-link p-0">@Resources.Resource.SwitchToFrench</a>
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="fr" class="nav-link p-0">@Resource.SwitchToFrench</a>
         </li>
         {
             ViewContext.RouteData.Values["culture"] = "es";
+        }
+    }
+    else
+    {
+
+        {
+            ViewContext.RouteData.Values["culture"] = "fr";
+        }
+        <li class="nav-link text-dark">
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="fr" class="nav-link p-0">@Resource.SwitchToEnglish</a>
+        </li>
+
+        {
+            ViewContext.RouteData.Values["culture"] = "es";
+        }
+        <li class="nav-link text-dark">
+            <a asp-controller="@((string)ViewContext.RouteData.Values["controller"])" asp-action="@((string)ViewContext.RouteData.Values["action"])" asp-route-culture="@((string)ViewContext.RouteData.Values["culture"])" lang="es" class="nav-link p-0">@Resource.SwitchToSpanish</a>
+        </li>
+        {
+            ViewContext.RouteData.Values["culture"] = "en";
         }
     }
     System.Threading.Thread.CurrentThread.CurrentCulture =

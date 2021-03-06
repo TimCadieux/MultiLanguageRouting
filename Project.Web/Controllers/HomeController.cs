@@ -30,6 +30,20 @@ namespace Project.Web.Controllers
             return View();
         }
 
+        [TranslatedRoute("en", "fighter-aircraft")]
+        [TranslatedRoute("fr", "avion-de-chasse")]
+        public IActionResult Jets()
+        {
+            return View();
+        }
+
+        [TranslatedRoute("en", "cars")]
+        [TranslatedRoute("fr", "automobiles")]
+        public IActionResult Cars()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
