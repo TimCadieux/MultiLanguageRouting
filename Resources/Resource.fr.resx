@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
   <data name="Car" xml:space="preserve">
     <value>Voiture</value>
   </data>
@@ -125,6 +128,12 @@
   </data>
   <data name="CarsWelcome" xml:space="preserve">
     <value>Bienvenue sur la page d'accueil des Voitures</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Éditer</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Accueil</value>
@@ -138,8 +147,8 @@
   <data name="JetsWelcome" xml:space="preserve">
     <value>Bienvenue sur la page d'accueil des Avions de chasse</value>
   </data>
-  <data name="Login" xml:space="preserve">
-    <value>Connexion</value>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
   </data>
   <data name="SwitchToEnglish" xml:space="preserve">
     <value>English</value>
