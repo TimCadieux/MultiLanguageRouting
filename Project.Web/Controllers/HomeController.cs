@@ -13,7 +13,8 @@ namespace Project.Web.Controllers
 
     [TranslatedRoute("en", "home")]
     [TranslatedRoute("fr", "accueil")]
-    public class HomeController : Controller
+    [TranslatedRoute("fr", "inicio")]
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -23,8 +24,6 @@ namespace Project.Web.Controllers
         }
 
 
-        [TranslatedRoute("en", "Index")]
-        [TranslatedRoute("fr", "Index")]
         public IActionResult Index()
         {
             ViewData["Title"] = Resources.Resource.Home;
@@ -34,6 +33,7 @@ namespace Project.Web.Controllers
 
         [TranslatedRoute("en", "fighter-aircraft")]
         [TranslatedRoute("fr", "avion-de-chasse")]
+        [TranslatedRoute("es", "avion-de-combate")]
         public IActionResult Jets()
         {
             ViewData["Title"] = Resources.Resource.Cars;
@@ -45,6 +45,7 @@ namespace Project.Web.Controllers
 
         [TranslatedRoute("en", "cars")]
         [TranslatedRoute("fr", "automobiles")]
+        [TranslatedRoute("es", "coches")]
         public IActionResult Cars()
         {
             ViewData["Title"] = Resources.Resource.Jets;

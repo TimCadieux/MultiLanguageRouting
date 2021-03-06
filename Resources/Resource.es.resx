@@ -150,6 +150,9 @@
   <data name="List" xml:space="preserve">
     <value>Lista</value>
   </data>
+  <data name="Store" xml:space="preserve">
+    <value>Tienda</value>
+  </data>
   <data name="SwitchToEnglish" xml:space="preserve">
     <value>English</value>
   </data>

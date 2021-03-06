@@ -14,7 +14,7 @@ namespace Project.Web.Controllers
     [TranslatedRoute("en", "store")]
     [TranslatedRoute("fr", "magasin")]
     [TranslatedRoute("es", "tienda")]
-    public class StoreController : Controller
+    public class StoreController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -23,9 +23,6 @@ namespace Project.Web.Controllers
             _logger = logger;
         }
 
-
-        [TranslatedRoute("en", "Index")]
-        [TranslatedRoute("fr", "Index")]
         public IActionResult Index()
         {
             ViewData["Title"] = Resources.Resource.Home;
@@ -35,17 +32,19 @@ namespace Project.Web.Controllers
 
         [TranslatedRoute("en", "fighter-aircraft")]
         [TranslatedRoute("fr", "avion-de-chasse")]
+        [TranslatedRoute("es", "avion-de-combate")] 
         public IActionResult Jets()
         {
             ViewData["Title"] = Resources.Resource.Jets;
 
-            var view = $"~/views/store/{nameof(Jets)}/list.cshtml";
+            var view = $"~/views/store/jets/list.cshtml";
 
             return View(view);
         }
 
         [TranslatedRoute("en", "cars")]
         [TranslatedRoute("fr", "automobiles")]
+        [TranslatedRoute("es", "coches")]
         public IActionResult Cars()
         {
             ViewData["Title"] = Resources.Resource.Cars;

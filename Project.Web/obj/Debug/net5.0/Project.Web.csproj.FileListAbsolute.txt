@@ -344,8 +344,6 @@ D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\n
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Project.Web.TagHelpers.input.cache
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Project.Web.TagHelpers.output.cache
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Project.Web.RazorCoreGenerate.cache
-D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\Admin\Cars\List.cshtml.g.cs
-D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\Admin\Jets\List.cshtml.g.cs
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs

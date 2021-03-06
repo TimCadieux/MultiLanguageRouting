@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Project.Web.Controllers.Admin
 {
-    //[TranslatedRoute("en", "store/car")]
-    //[TranslatedRoute("fr", "magasin/voiture")]
-    //[TranslatedRoute("es", "tienda/coche")]
+    [TranslatedRoute("en", "store/car")]
+    [TranslatedRoute("fr", "magasin/voiture")]
+    [TranslatedRoute("es", "tienda/coche")]
     public class CarsController : BaseController
     {
         private const string Path = "Cars";
