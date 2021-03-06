@@ -368,3 +368,5 @@ D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\n
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Store\Jets\list.cshtml.g.cs
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\cars.cshtml.g.cs
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\jets.cshtml.g.cs
+D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Shared\_Admin.cshtml.g.cs
+D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Store\Index.cshtml.g.cs
