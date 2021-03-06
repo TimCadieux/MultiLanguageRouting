@@ -79,6 +79,15 @@ namespace Project.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Welcome to the Cars HomePage.
+        /// </summary>
+        public static string CarsWelcome {
+            get {
+                return ResourceManager.GetString("CarsWelcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Home {
@@ -102,6 +111,15 @@ namespace Project.Resources {
         public static string Jets {
             get {
                 return ResourceManager.GetString("Jets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to the Jets HomePage.
+        /// </summary>
+        public static string JetsWelcome {
+            get {
+                return ResourceManager.GetString("JetsWelcome", resourceCulture);
             }
         }
         

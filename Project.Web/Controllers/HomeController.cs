@@ -27,6 +27,8 @@ namespace Project.Web.Controllers
         [TranslatedRoute("fr", "Index")]
         public IActionResult Index()
         {
+            ViewData["Title"] = Resources.Resource.Home;
+
             return View();
         }
 
@@ -34,14 +36,22 @@ namespace Project.Web.Controllers
         [TranslatedRoute("fr", "avion-de-chasse")]
         public IActionResult Jets()
         {
-            return View();
+            ViewData["Title"] = Resources.Resource.Cars;
+
+            var view = $"~/views/home/{nameof(Jets)}.cshtml";
+
+            return View(view);
         }
 
         [TranslatedRoute("en", "cars")]
         [TranslatedRoute("fr", "automobiles")]
         public IActionResult Cars()
         {
-            return View();
+            ViewData["Title"] = Resources.Resource.Jets;
+
+            var view = $"~/views/home/{nameof(Cars)}.cshtml";
+
+            return View(view);
         }
 
         public IActionResult Privacy()

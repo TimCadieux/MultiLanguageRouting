@@ -366,3 +366,5 @@ D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\n
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\ref\Project.Web.dll
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Project.Web.pdb
 D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Project.Web.genruntimeconfig.cache
+D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\cars.cshtml.g.cs
+D:\Garren\GitHb_Projects\TimCadieux\MultiLanguageRouting\Project.Web\obj\Debug\net5.0\Razor\Views\Home\jets.cshtml.g.cs

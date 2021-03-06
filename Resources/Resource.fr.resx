@@ -123,6 +123,9 @@
   <data name="Cars" xml:space="preserve">
     <value>Voitures</value>
   </data>
+  <data name="CarsWelcome" xml:space="preserve">
+    <value>Bienvenue sur la page d'accueil des Voitures</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Accueil</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Jets" xml:space="preserve">
     <value>Avions de chasse</value>
+  </data>
+  <data name="JetsWelcome" xml:space="preserve">
+    <value>Bienvenue sur la page d'accueil des Avions de chasse</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Connexion</value>
